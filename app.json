@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AnimFiFry",
+    "slug": "rnAnimFiFry",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconv.png",
+    "splash": {
+      "image": "./assets/splashv.png",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.AnimFiFry",
+      "config": {
+      "googleMapsApiKey": "AIzaSyC6XMA0T-inqvnVmmb-rBo-VECMHfFA1Mk"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconv.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rnAnimFiFry.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
