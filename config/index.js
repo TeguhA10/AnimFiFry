@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://62b05551b0a980a2ef509677.mockapi.io/AnimFri';
