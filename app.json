@@ -17,12 +17,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.AnimFiFry",
-      "config": {
-      "googleMapsApiKey": "AIzaSyC6XMA0T-inqvnVmmb-rBo-VECMHfFA1Mk"
-      }
+      "bundleIdentifier": "com.example.AnimFiFry"
     },
     "android": {
+      "config": { 
+        "googleMaps": { "apiKey": "Api-key-maps" } },
       "adaptiveIcon": {
         "foregroundImage": "./assets/iconv.png",
         "backgroundColor": "#FFFFFF"
